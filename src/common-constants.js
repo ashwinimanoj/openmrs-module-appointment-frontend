@@ -256,7 +256,8 @@ Bahmni.Common = Bahmni.Common || {};
         patientFormsUrl: BAHMNI_CORE + "/patient/{patientUuid}/forms",
         defaultPossibleRelativeSearchLimit: 10,
         formBuilderDisplayControlType: "formsV2",
-        formBuilderType: "v2"
+        formBuilderType: "v2",
+        fetchLoginLocationURL: RESTWS_V1 + "/appui/session"
     };
 })();
 
